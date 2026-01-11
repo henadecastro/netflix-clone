@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    @font-face {
+        font-family: 'Netflix Sans Core';
+        src: url(https://occ.a.nflxso.net/genc/hawkins/5.11.1/font/netflix-sans-core-variable-full.woff2) format('woff2');
+        font-weight: 100;
+    }
+    @font-face {
+        font-family: 'Netflix Sans Core';
+        src: url(https://occ.a.nflxso.net/genc/hawkins/5.11.1/font/netflix-sans-core-variable-full.woff2) format('woff2');
+        font-weight: 300;
+    }
+    font-family: "Netflix Sans Core", sans-serif;
+}
+body, html {
+    height: 100%;
+}
+
+.background {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+                url('fundo.jpg') no-repeat center/cover;
+    height: 100%;
+}
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.logo {
+    width: 200px;
+    margin-left: 300px;
+}
+
+.entrar {
+    background-color: #e50914;
+    color: white;
+    border: none;
+    padding: 8px 18px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-right: 300px;
+}
+.conteudo {
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+    animation: fadeIn 2s;
+}
+
+.conteudo h1 {
+    font-size: 60px;
+    margin-bottom: 30px;
+    font-weight: 900;
+    padding: 0 550px;
+}
+
+.conteudo p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.conteudo span {
+    font-size: 16px;
+}
+.formulario {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.formulario input {
+    padding: 15px;
+    width: 600px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: transparent;
+    border: 1px solid white;
+    border-color: rgb(130, 130, 130);
+    border-radius: 6px;
+    outline: none;
+}
+
+.formulario button {
+    background-color: #e50914;
+    color: white;
+    border: none;
+    padding: 15px 30px 15px 30px;
+    margin: 0 0 0 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 6px;
+}
